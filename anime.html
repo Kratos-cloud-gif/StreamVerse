@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime Section</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="anime.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Anime Streaming</h1>
+    <h>Sorry fo the auto playing ep and movies when enter the website will fix this later</h>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="games.html">Games</a>
+    </nav>
+    <input type="text" id="animeSearch" placeholder="Search Anime...">
+  </header>
+
+  <main class="section">
+    <div class="grid" id="animeGrid">
+      <div class="card" data-title="Angel Next Door Spoil Me Roten">
+        <img src="images/Angel.jpg" alt="Angel">
+        <div class="summary">
+          <h3>Angel Next Door Spoils Me Roten</h3>
+          <p>Amane lives alone in an apartment, and the most beautiful girl in school, Mahiru, lives just next door. They've almost never spoken—until the day he sees her in distress on a rainy day and lends her his umbrella. To return the favor, she offers him help around the house, and a relationship slowly begins to blossom as the distance between them closes...</p>
+            <video id="angelPlayer" controls autoplay muted src="angle-videos/Angel next door ep1.mp4" width="100%"></video>
+    <div class="episode-buttons">
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep1.mp4'">Ep 1</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep2.mp4'">Ep 2</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep3.mp4'">Ep 3</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep4.mp4'">Ep 4</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep5.mp4'">Ep 5</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep6.mp4'">Ep 6</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep7.mp4'">Ep 7</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep8.mp4'">Ep 8</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep9.mp4'">Ep 9</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep10.mp4'">Ep 10</button>
+      <button onclick="document.getElementById('angelPlayer').src='angle-videos/Angel next door ep11.mp4'">Ep 11</button>
+      <button onclick="document.getElementById('angelPlayer').src='angel-videos/Angel next door ep12.mp4'">Ep 12</button>
+
+
+    </div>
+
+    <button class="fav-btn">☆ Watch Later</button>
+  </div>
+</div>
+
+<div class="card" data-title="The Tunnel to Summer the Exit of Goodbyes">
+        <img src="images/Tunnel to goodbye.jpg" alt="Tunnel to goodbye">
+        <div class="summary">
+          <h3>The Tunnel to Summer the Exit of Goodbyes</h3>
+          <p>Urashima Tunnel - Once you enter that tunnel, you can get whatever you want, but at a price. Kaoru Tohno, who seems to have an elusive personality and traumatic past, and Anzu Hanashiro, who is struggling to reconcile her ideal image and true-to-heart attitude, team up to investigate the Urashima Tunnel and get what they want. This is an unforgettable summer story of nostalgia and sprinting in a remote countryside.</p>
+            <video id="angelPlayer" controls autoplay muted src="Movies/The Tunnel to Summer the Exit of Goodbyes.mp4" width="100%"></video>
+    <button class="fav-btn">☆ Watch Later</button>
+  </div>
+</div>
+
+      <div class="card" data-title="Your Name">
+        <img src="images/Your name.png" alt="Your name">
+        <div class="summary">
+          <h3>Your Name</h3>
+          <p>Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.
+
+One day, Mitsuha awakens in a room that is not her own and suddenly finds herself living the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds himself living Mitsuha's life in the humble countryside. In pursuit of an answer to this strange phenomenon, they begin to search for one another.
+
+Kimi no Na wa. revolves around Mitsuha and Taki's actions, which begin to have a dramatic impact on each other's lives, weaving them into a fabric held together by fate and circumstance.
+</p>
+          <video controls autoplay muted src="Movies/Your Name.mp4"></video>
+          <button class="fav-btn">☆ Watch Later</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

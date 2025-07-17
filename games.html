@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Game Streams</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="games.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Game Streaming</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="anime.html">Anime</a>
+    </nav>
+    <input type="text" id="gameSearch" placeholder="Search Gamers...">
+  </header>
+
+  <main class="section">
+    <div class="grid" id="gameGrid">
+      <div class="card" data-title="NoobSlayer99">
+        <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/controller-2023445_1280.png" alt="Gamer 1">
+        <div class="summary">
+          <h3>NoobSlayer99</h3>
+          <p>Watch hilarious FPS fails and amazing clutches!</p>
+          <video controls src="gamer1.mp4"></video>
+          <button class="fav-btn">☆ Watch Later</button>
+        </div>
+      </div>
+
+      <div class="card" data-title="ProFire">
+        <img src="https://cdn.pixabay.com/photo/2020/06/07/06/10/esports-5269915_1280.jpg" alt="Gamer 2">
+        <div class="summary">
+          <h3>ProFire</h3>
+          <p>Speedrunning through chaos with precision.</p>
+          <video controls src="gamer2.mp4"></video>
+          <button class="fav-btn">☆ Watch Later</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
